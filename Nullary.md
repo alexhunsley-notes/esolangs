@@ -6,7 +6,7 @@ Nullary is a computer language that takes no user input. A correct implementatio
 
 ## Implementation Description 
 
-Upon launch, Nullary takes note of the elapsed time since the epoch microseconds in microseconds (denoted T). 
+Upon launch, Nullary takes note of the elapsed time since the epoch in microseconds (denoted T). 
 
 Convert T into base 1 (unary). Execute this as input to the Unary or Progressive Unary esolangs.
 
