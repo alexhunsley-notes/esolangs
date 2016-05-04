@@ -2,7 +2,7 @@
 
 Shatner is a highly impractical programming language which is best described as "idiotic programming by example".
 
-A Shatner program has three parts:
+A Shatner program has two parts:
 
 * A collection of training inputs and outputs
 * The main inputs
@@ -21,7 +21,7 @@ The lines without a comma are inputs that Shatner will run through its derived a
 
 ## Implementing Shatner
 
-For every integer from 0 upwards:
+For every integer N from 0 upwards:
 Convert to base 8. Interpret this base 8 number as a string of Brainfuck commands, as follows:
 
     >   0
@@ -35,7 +35,7 @@ Convert to base 8. Interpret this base 8 number as a string of Brainfuck command
 
 Execute this Brainfuck program using all the training inputs in turn. If any training input does not produce the corresponding expected training output, move onto the next integer. If the Brainfuck program doesn't exit after 60 seconds on any input, stop executing it and consider the training input as failed.
 
-If all the training inputs produce the expected training outputs, run the found algorithm on the main inputs.
+If all the training inputs produce the expected training outputs for an integer N, run the found algorithm on the main inputs.
 
 ## Comments
 
