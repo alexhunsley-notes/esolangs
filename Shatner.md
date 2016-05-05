@@ -1,4 +1,4 @@
-# Shatner: An Impractilang
+# Shatner: An Esolang
 
 Shatner is a highly impractical programming language which is best described as "idiotic programming by example".
 
@@ -39,6 +39,6 @@ If all the training inputs produce the expected training outputs for an integer 
 
 ## Comments
 
-Note that impractilangs are not necessarily Turing Complete.
+Note that Shatner is not Turing Complete.
 
 Author: alex.hunsley@gmail.com

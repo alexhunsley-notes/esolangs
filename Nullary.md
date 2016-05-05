@@ -1,4 +1,4 @@
-# Nullary: An Impractilang 
+# Nullary: An Esolang 
 
 ## Weclome to base 0
 
@@ -18,6 +18,6 @@ Instead of using Unary, translate T into base 8 and use it as Brainfuck input. T
 
 ## Comments
 
-Note that impractilangs are not necessarily Turing Complete.
+Note that Nullary is not Turing Complete.
 
 Author: alex.hunsley@gmail.com
